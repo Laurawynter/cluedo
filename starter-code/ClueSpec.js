@@ -10,6 +10,7 @@ describe('Find a random element of the array - randomSelector', () => {
   it('Defines randomSelector', () => {
     expect(typeof randomSelector).toBe('function');
   });
+  
 
   it('Return undefined if the array is empty', () => {
     expect(randomSelector([])).toBe(undefined);
